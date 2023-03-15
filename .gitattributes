@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+console.log("Рассказ о себе")
+ 
+ const d1=new Date();
+ console.log(d1);
+ let MobilePhoneNumber=1;
+ console.log(MobilePhoneNumber);
+ MobilePhoneNumber=2;
+ let numExample=89835316610;
+ console.log(numExample)
+
+ let today = new Date(2023,3,15);
+    let birthDate = new Date(1982,3,22);
+    let age = today.getFullYear(2023) - birthDate.getFullYear(1982);
+    let m = today.getMonth(3) - birthDate.getMonth(3);
+    
+
+
+ 
+ let strExample=`Меня зовут Ирина Мункуева. Я живу в городе Улан-Удэ. Мой номер телефона ${numExample}. Мне ${age}`
+ console.log(strExample);
+ 
